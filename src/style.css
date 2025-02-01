@@ -1,0 +1,142 @@
+:root {
+    ---background-default: #F5F4F0;
+    ---border-primary: #D9D9D9;
+    ---text-primary: #1B1B1B;
+    ---text-secondary: #333333;
+    ---text-tertiary: #696969;
+    ---text-headline: #E1624F;
+    ---acent-blue: #0C51A7;
+    ---acent-orange: #E95E10;
+    ---acent-pink: #E5245E;
+    ---acent-purple: #591B98;
+} 
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+} 
+  
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(---background-default);    
+} 
+  
+.container {
+    margin: 0 auto;
+    margin-top: 5.8rem;
+    margin-bottom: 5.8rem;
+    max-width: 110rem;
+} 
+
+.headline {
+    color: var(---text-headline);
+    text-transform: uppercase;
+} 
+  
+.headline, h1, h2, h3 {
+    font-weight: bold;
+} 
+  
+.headline, p {
+    font-size: 1.6rem;
+} 
+  
+h1 {
+    font-size: 3.6rem;
+} 
+  
+header .title {
+    margin-bottom: 4rem;
+} 
+
+header img {
+    margin-bottom: 2.4rem;
+    width: 100%;
+    border-radius: 28px;
+} 
+
+.subtitle {
+    font-style: italic;
+    text-align: center;
+} 
+  
+main {
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 6.4rem;
+} 
+
+.title-list {
+    margin-bottom: 6.4rem;
+}
+
+main .title {
+    margin-bottom: .8rem;
+}
+  
+h2 {
+    font-size: 3.2rem;
+}
+  
+.content {
+    margin-top: 2rem;
+    margin-bottom: 4.8rem;
+}
+
+.card-travel img {
+    height: 375px;
+    border-radius: 28px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-travel h3 {
+    font-size: 2.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.card-travel span {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.card-travel ul {
+    list-style-position: inside;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.history {
+    color: var(---acent-blue);
+}
+
+.couples {
+    color: var(---acent-purple);
+}
+  
+.families {
+    color: var(---acent-pink);
+}
+  
+.budget {
+    color: var(---acent-orange);
+}
+
+.footer {
+    text-align: center;
+}
+
+.p-link {
+    margin-top: 1.2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
