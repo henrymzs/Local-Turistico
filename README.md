@@ -23,7 +23,7 @@ Este é um projeto HTML e CSS
 
 1. Clone ou baixe o repositório.
    ```bash
-   git clone https://github.com/henrymzs/Local-Turistico.git
+   https://github.com/henrymzs/Tourist-Site.git
    ```
 
 2. Navegue até a pasta do projeto.
